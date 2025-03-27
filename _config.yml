@@ -11,7 +11,7 @@ title                    : "Shixun Wu"
 title_separator          : "-"
 name                     : &name "Shixun Wu"
 description              : &description "Doctoral Student"
-url                      : https://shixun404.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://shixun404.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shixnu404/shixun404.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -73,20 +73,20 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "custom" #"google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
 
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Shixun Wu"
+  avatar           : "photo/IMG_0520.png"
+  bio              : "Phd Candidate at UC, Riverside"
+  location         : "Riverside, CA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    :  "https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=zh-CN&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "shixun404"
   google_plus      :
   keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  instagram        : 
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "shixun-wu-20b1b1236"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  # twitter          : "shixun_404"
   vine             :
   weibo            :
   xing             :
@@ -183,8 +183,11 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  photography:
     output: true
     permalink: /:collection/:path/
 
@@ -236,6 +239,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _photography
+  - scope:
+      path: ""
+      type: photography
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""

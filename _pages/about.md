@@ -1,50 +1,226 @@
+
+
+
+
+---
+
+```yaml
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+```
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+## About Me
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a Ph.D. student in Computer Science at the **University of California, Riverside**, advised by Prof. **Zizhong Chen**. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Previously, I received my **M.S. in Electrical Engineering** from **Columbia University** and **B.S. in Computer Science** (with a **double major** in Economics) from **Peking University**.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My research interests lie broadly in **High-Performance Computing (HPC)**, **Reinforcement Learning**, **Fault Tolerance & Resilience in Deep Learning Systems**, **Parallel, Distributed & Heterogeneous Systems**, and **Lossy Compression & Data Management**.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## News
 
-**Markdown generator**
+- **June 2023**: Gave a talk at the 37th ACM International Conference on Supercomputing (ICS 2023).  
+- **April 2023**: Our work on high-performance and fault-tolerant GEMM on GPUs was accepted by ICS 2023.
+- ...
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+*(若需要，你可在此处按时间顺序补充更多动态)*
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Education
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Ph.D. in Computer Science** (Sep. 2022 – Present)  
+  University of California, Riverside (UCR)  
+  *Advisor:* Prof. Zizhong Chen
+
+- **M.S. in Electrical Engineering** (Sep. 2020 – May 2022)  
+  Columbia University
+
+- **B.S. in Computer Science** (Sep. 2016 – Jul. 2020)  
+  **B.S. in Economics (Double Major)**  
+  Peking University
+
+---
+
+## Research Experience
+
+1. **USC ISI / Argonne National Laboratory** (Jan. 2024 – Present)  
+   *Los Angeles, CA / Lemont, IL*  
+   **Scientific Workflow Applications on Resilient Metasystem**  
+   *Mentors: Dr. Franck Cappello, Dr. Sheng Di, Dr. Krishnan Raghavan (ANL); Dr. Ewa Deelman (USC ISI)*  
+   - Designed a Q-learning + GNN-based topology protocol (**DGRO**) that reduces network diameter by optimizing virtual rings over heterogeneous, failure-prone systems.  
+   - Implemented a single-hop gossip-based failure detector, resilient to network jitter and churn, enabling decentralized membership monitoring across 20+ globally distributed sites.  
+   - Deployed DGRO on the FABRIC testbed spanning Japan, Europe, Hawaii, and 15+ U.S. locations, demonstrating fast convergence and robustness at international scale.
+
+2. **UCR / Lawrence Berkeley National Laboratory** (Sep. 2022 – Present)  
+   *Riverside, CA*  
+   **Data-driven Exascale Control of Optically Driven Excitations in Chemical and Material Systems**  
+   *Mentor: Dr. Zizhong Chen*  
+   - Designed and implemented in-kernel **ABFT GEMM** using tensor cores, achieving higher performance than **cuBLAS** while ensuring fault detection and correction under soft errors.  
+   - Developed a fully GPU-resident **ABFT FFT** pipeline, outperforming **cuFFT**, and enabling error-resilient spectral analysis in scientific simulations.  
+   - Proposed the first ABFT-enabled K-means clustering framework on GPUs, exceeding **cuML** performance with integrated resilience support.  
+   - Innovated lightweight, low-overhead in-kernel fault tolerance mechanisms across linear algebra and ML workloads, demonstrating resilience-performance co-design in exascale systems.
+
+3. **Nvidia** (Jun. 2024 – Sep. 2024)  
+   *Santa Clara, CA*  
+   **Compiler Optimization for OpenMP Target Offload on Heterogeneous GPU Architectures**  
+   *Mentor: Dr. David Appelhans*  
+   - Investigated performance bottlenecks of OpenMP target offload in SPEChpc 2021 on GH200/H200 GPUs.  
+   - Developed compiler/runtime optimizations achieving up to 10× speedup without source code changes.  
+   - Analyzed OpenMP vs. OpenACC performance and contributed optimized versions to SPEChpc 1.1.9.  
+   - Work adopted by RWTH Aachen University, demonstrating both research impact and practical relevance.
+
+4. **Columbia University / AI4Finance Foundation** (Aug. 2021 – Jul. 2022)  
+   *New York, NY*  
+   **ElegantRL: Massively Parallel Deep Reinforcement Learning Library**  
+   *Mentors: Dr. Xiaoyang Liu, Dr. Xiaodong Wang*  
+   - Developed multi-agent RL algorithms in **ElegantRL**, a popular RL library with ~4k GitHub stars.  
+   - Co-led **ElegantRL_Solver**, a high-performance solver that outperforms Gurobi for dense MaxCut problems.
+
+---
+
+## Publications
+
+<p>
+For the complete list, please visit my 
+<a href="https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=en" target="_blank">Google Scholar</a>.
+</p>
+
+### Conference Papers
+
+- **[PPoPP '25]**  
+  **Shixun Wu**, Yujia Zhai, Jinyang Liu, Jiajun Huang, Zizhe Jian, Sheng Di, Franck Cappello, Zizhong Chen.  
+  *TurboFFT: Co-Designed High-Performance and Fault-Tolerant Fast Fourier Transform on GPUs.*  
+  <em>ACM Symposium on Principles and Practice of Parallel Programming (PPoPP), 2025.</em>  
+  [[Paper]](https://doi.org/10.1145/3710848.3710853)
+
+- **[Cluster '24]**  
+  **Shixun Wu**\*, Yitong Ding\*, Yujia Zhai, Jinyang Liu, Jiajun Huang, Zizhe Jian, Huangliang Dai, Sheng Di, Bryan Wong, Zizhong Chen, Franck Cappello.  
+  *FT K-means: A High-Performance K-means on GPU with Fault Tolerance.*  
+  <em>2024 IEEE International Conference on Cluster Computing (CLUSTER).</em>  
+  [[Paper]](https://www.computer.org/csdl/proceedings-article/cluster/2024/587100a322/21HPtzEXyCY)
+
+- **[SC '24]**  
+  Jinyang Liu\*, Jiannan Tian\*, **Shixun Wu**\*, Sheng Di, Boyuan Zhang, Robert Underwood, Yafan Huang, Jiajun Huang, Kai Zhao, Guanpeng Li, Dingwen Tao, Zizhong Chen, Franck Cappello.  
+  *cuSZ-I: High-Fidelity Error-Bounded Lossy Compression for Scientific Data on GPUs.*  
+  <em>SC24: International Conference for High Performance Computing, Networking, Storage and Analysis, 2024.</em>  
+  [[Paper]](https://www.computer.org/csdl/proceedings-article/sc/2024/529100a158/21HUVd8CAPC)
+
+- **[ICS '23]**  
+  **Shixun Wu**\*, Yujia Zhai\*, Jinyang Liu, Jiajun Huang, Zizhe Jian, Bryan Wong, Zizhong Chen.  
+  *Anatomy of High-Performance GEMM with Online Fault Tolerance on GPUs.*  
+  <em>37th ACM International Conference on Supercomputing (ICS), 2023.</em>  
+  [[Paper]](https://dl.acm.org/doi/10.1145/3577193.3593715)
+
+- **[IPDPS '24]**  
+  Zizhe Jian, Sheng Di, Jinyang Liu, Kai Zhao, Xin Liang, Haiying Xu, Robert Underwood, **Shixun Wu**, Jiajun Huang, Zizhong Chen, Franck Cappello.  
+  *CliZ: Optimizing Lossy Compression for Climate Datasets with Adaptive Fine-tuned Data Prediction.*
+
+- **[SIGMOD '24]**  
+  Jinyang Liu, Sheng Di, Kai Zhao, Xin Liang, Sian Jin, Zizhe Jian, Jiajun Huang, **Shixun Wu**, Zizhong Chen, Franck Cappello.  
+  *High-performance Effective Scientific Error-bounded Lossy Compression with Auto-tuned Multi-component Interpolation.*
+
+- **[BigData '23]**  
+  Jiajun Huang, Jinyang Liu, Sheng Di, Yujia Zhai, Zizhe Jian, **Shixun Wu**, Kai Zhao, Zizhong Chen, Yanfei Guo, Franck Cappello.  
+  *Exploring Wavelet Transform Usages for Error-bounded Scientific Data Compression.*
+
+- **[Allerton '23]**  
+  Jeremy Johnston, Xiaoyang Liu, **Shixun Wu**, Xiaodong Wang.  
+  *Downlink beamforming optimization via deep learning.*  
+  <em>59th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2023.</em>
+
+### Journal Papers
+
+- **[IJHPCA '25]**  
+  Balaprakash Prasanna, Krishnan Raghavan, Franck Cappello, Ewa Deelman, Anirban Mandal, Hongwei Jin, Imtiaz Mahmud, Komal Thareja, **Shixun Wu**, Pawel Zuk, Mariam Kiran, Zizhong Chen, Sheng Di, Kesheng Wu.  
+  *SWARM: Reimagining Scientific Workflow Management Systems in a Distributed World.*  
+  <em>International Journal of High Performance Computing Applications, 2025.</em>
+
+- **[TSP '23]**  
+  Jeremy Johnston, Xiaoyang Liu, **Shixun Wu**, Xiaodong Wang.  
+  *A Curriculum Learning Approach to Optimization with Application to Downlink Beamforming.*  
+  <em>IEEE Transactions on Signal Processing, 2023.</em>
+
+### Poster Papers
+
+- **[HPDC '23]**  
+  **Shixun Wu**\*, Yujia Zhai\*, Jiajun Huang, Zizhe Jian, Zizhong Chen.  
+  *FT-GEMM: A Fault Tolerant High Performance GEMM Implementation on x86 CPUs.*  
+  <em>The 32nd ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC), 2023.</em>  
+  [[Poster]](https://dl.acm.org/doi/10.1145/3588195.3595947)
+
+### Workshop Papers
+
+- **[SC '24 Workshop]**  
+  Ewa Deelman, Prasanna Balaprakash, Mariam Kiran, Anirban Mandal, Krishnan Raghavan, Sheng Di, Franck Cappello, John Wu, Zizhong Chen, **Shixun Wu**, Hongwei Jin, Cong Wang, Imtiaz Mahmud, Komal Thareja, Erik Scott, Pawel Zuk, Aiden Hamade.  
+  *SWARM: Scientific Workflow Applications on Resilient Metasystem.*
+
+- **[ICLR '23 Workshop]**  
+  Xiaoyang Liu, Zechu Li, **Shixun Wu**, Xiaodong Wang.  
+  *Stationary Deep Reinforcement Learning With Quantum K-Spin Hamiltonian Regularization.*  
+  <em>ICLR 2023 Workshop on Physics for Machine Learning, 2023.</em>
+
+### arXiv (In Submission)
+1. **Shixun Wu**, Sheng Di, Krishnan Ragahvan, Kesheng Wu, Ewa Deelman, Franck Cappello.  
+   *DGRO: Diameter-Guided Ring Optimization for Integrated Research Infrastructure Membership.*
+
+2. Huangliang Dai, **Shixun Wu**, Zizhong Chen.  
+   *FT-Transformer.*
+
+3. **Shixun Wu**, Zizhong Chen.  
+   *TurboFNO: High-Performance Fourier Neural Operator with Fused FFT-GEMM-iFFT on GPU.*
+
+4. **Shixun Wu**\*, Jinyang Liu\*, Jiannan Tian\*, Jinwen Pan\*, Sheng Di, Zizhong Chen, Franck Cappello.  
+   *Optimizing GPU-Based Error-Bounded Lossy Compression with Advanced Interpolation and Synergistic Lossy-Lossless Scheme.*
+
+---
+
+## Professional Services
+
+- Reviewer, **Parallel Computing**, 2025  
+- SubReviewer, **ICS** (International Conference on Supercomputing), 2025  
+- SubReviewer, **CCGrid** (International Symposium on Cluster, Cloud and Grid Computing), 2025  
+- Reviewer, **GPGPU** (Workshop on General Purpose Processing Using GPU), 2025  
+- Reviewer, **ICDCS** (International Conference on Distributed Computing Systems), 2025  
+- SubReviewer, **IPDPS** (International Parallel and Distributed Processing Symposium), 2024, 2023  
+- Reviewer, **Computing Surveys**, 2023  
+- Reviewer, **Journal of Intelligent & Fuzzy Systems**, 2023  
+
+---
+
+## Projects Involved
+
+- **DOE SWARM**: Scientific Workflow Applications on Resilient Metasystem  
+- **DOE DECODE**: Data-driven Exascale Control of Optically Driven Excitations in Chemical and Material Systems  
+
+---
+
+## Teaching
+
+- **Teaching Assistant**, CS161: Design & Architecture of Computer Systems, University of California, Riverside  
+  - **Fall 2024**, **Spring 2024**
+
+- **Teaching Assistant**, CS160: Concurrent Programming and Parallel Systems, University of California, Riverside  
+  - **Fall 2023**
+
+---
+
+## Honors and Awards
+
+- **NSF PPoPP Travel Grant** (Feb. 2025)  
+- **Outstanding Teaching Award**, University of California, Riverside (May 2024)  
+- **Third Prize**, UCRPC, University of California, Riverside (Nov. 2023)  
+- **Distinguished Dean's Fellowship**, University of California, Riverside (Sep. 2022)  
+- **Second Prize**, PKU ACM (2017, 2018)  
+- **PKU May 4th Scholarship** (2017)
+
+---
