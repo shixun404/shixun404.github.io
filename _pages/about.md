@@ -14,7 +14,7 @@ News
 ======
 - Mar 2025: Gave a talk at the Las Vegas, NV (PPoPP 2025).  
 - June. 2023: I gave a talk at International Conference on Supercomputing 2023.
-- April. 2023: A paper was accepted at International Conference on Supercomputing 2023. -->
+- April. 2023: A paper was accepted at International Conference on Supercomputing 2023.
 
 Education
 ======
