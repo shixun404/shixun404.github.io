@@ -73,16 +73,6 @@ Selected Publications
 
 <p><a href="https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=zh-CN&oi=ao" target="_blank">Full list in Google Scholar</a></p>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
-    SC '24
-  </div>
-  <div>
-    Jinyang Liu*, Jiannan Tian*, <strong>Shixun Wu</strong>*, Sheng Di, Boyuan Zhang, Robert Underwood, Yafan Huang, Jiajun Huang, Kai Zhao, Guanpeng Li, Dingwen Tao, Zizhong Chen, Franck Cappello.<br>
-    <em>High-ratio Scientific Lossy Compression on GPUs with Optimized Multi-level Interpolation.</em><br>
-    <a href="https://arxiv.org/abs/2312.05492" target="_blank">arXiv preprint arXiv:2312.05492 (2023)</a>. (*: Co-first authors)
-  </div>
-</div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
