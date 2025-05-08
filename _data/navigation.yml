@@ -9,8 +9,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
         
-  # - title: "CV"
-  #   url: /files/Shixun_Wu_CV.pdf
+  - title: "CV"
+    url: /files/Shixun_Wu_CV.pdf
     
   - title: "Photography"
     url: /photography/
