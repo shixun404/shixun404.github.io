@@ -71,7 +71,7 @@ Research Experience
 Selected Publications
 =====================
 
-<p><a href="https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=zh-CN&oi=ao" target="_blank">Full list in Google Scholar</a></p> -->
+<p><a href="https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=zh-CN&oi=ao" target="_blank">Full list in Google Scholar</a></p>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
