@@ -12,6 +12,7 @@ I am a PhD Candidate at University of California, Riverside. Prior to the PhD st
 
 News
 ======
+- Jun 2025: Three papers were accepted at SC'25
 - Mar 2025: Gave a talk at the Las Vegas, NV (PPoPP 2025).  
 - June. 2023: I gave a talk at International Conference on Supercomputing 2023.
 - April. 2023: A paper was accepted at International Conference on Supercomputing 2023.
@@ -73,15 +74,52 @@ Selected Publications
 
 <p><a href="https://scholar.google.com/citations?user=MFWUo10AAAAJ&hl=zh-CN&oi=ao" target="_blank">Full list in Google Scholar</a></p>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
+    SC '25
+  </div>
+  <div>
+    <strong>Boosting Scientific Error-Bounded Lossy Compression through Optimized Synergistic Lossy-Lossless Orchestration.</strong><br />
+    <strong>Shixun Wu</strong>*, Jinwen Pan*, Jinyang Liu, Jiannan Tian, Ziwei Qiu, Jiajun Huang, Kai Zhao, Xin Liang, Sheng Di, Zizhong Chen, and Franck Cappello.<br />
+    [<a href="https://arxiv.org/abs/2507.11165" target="_blank">paper</a>]
+    <!-- <a href="https://arxiv.org/abs/2507.11165" target="_blank">2025 SC25: International Conference for High Performance Computing, Networking, Storage and Analysis</a>. -->
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
+    SC '25
+  </div>
+  <div>
+    <strong>TurboFNO: High-Performance Fourier Neural Operator with Fused FFT-GEMM-iFFT.</strong><br />
+    <strong>Shixun Wu</strong>, Yujia Zhai, Huangliang Dai, Yue Zhu, Haiyang Hu, and Zizhong Chen.<br />
+    [<a href="https://arxiv.org/abs/2504.11681" target="_blank">paper</a>]
+    <!-- <a href="https://arxiv.org/abs/2504.11681" target="_blank">2025 SC25: International Conference for High Performance Computing, Networking, Storage and Analysis</a>. -->
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
+    SC '25
+  </div>
+  <div>
+    <strong>FT-Transformer: Resilient and Reliable Transformer with End-to-End Fault Tolerant Attention.</strong><br />
+    Huangliang Dai, <strong>Shixun Wu</strong>, Jiajun Huang, Zizhe Jian, Yue Zhu, Haiyang Hu, and Zizhong Chen.<br />
+    [<a href="https://arxiv.org/abs/2504.02211" target="_blank">paper</a>]
+    <!-- <a href="https://arxiv.org/abs/2504.02211" target="_blank">2025 SC25: International Conference for High Performance Computing, Networking, Storage and Analysis</a>. -->
+  </div>
+</div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
     PPoPP '25
   </div>
   <div>
+    <strong>TurboFFT: Co-Designed High-Performance and Fault-Tolerant Fast Fourier Transform on GPUs.</strong><br>
     <strong>Shixun Wu</strong>, Yujia Zhai, Jinyang Liu, Jiajun Huang, Zizhe Jian, Sheng Di, Franck Cappello, Zizhong Chen.<br>
-    <em>TurboFFT: Co-Designed High-Performance and Fault-Tolerant Fast Fourier Transform on GPUs.</em><br>
-    <a href="https://dl.acm.org/doi/10.1145/3710848.3710853" target="_blank">PPoPP '2025: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming 2025</a>.
+    [<a href="https://dl.acm.org/doi/10.1145/3710848.3710853" target="_blank">paper</a>]
+    <!-- <a href="https://dl.acm.org/doi/10.1145/3710848.3710853" target="_blank">PPoPP '2025: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming 2025</a>. -->
   </div>
 </div>
 
@@ -90,9 +128,10 @@ Selected Publications
     SC '24
   </div>
   <div>
+    <strong>cuSZ-I: High-Fidelity Error-Bounded Lossy Compression for Scientific Data on GPUs.</strong><br>
     Jinyang Liu*, Jiannan Tian*, <strong>Shixun Wu</strong>*, Sheng Di, Boyuan Zhang, Robert Underwood, Yafan Huang, Jiajun Huang, Kai Zhao, Guanpeng Li, Dingwen Tao, Zizhong Chen, Franck Cappello.<br>
-    <em>cuSZ-I: High-Fidelity Error-Bounded Lossy Compression for Scientific Data on GPUs.</em><br>
-    <a href="https://www.computer.org/csdl/proceedings-article/sc/2024/529100a158/21HUVd8CAPC" target="_blank">2024 SC24: International Conference for High Performance Computing, Networking, Storage and Analysis</a>.
+    <!-- <a href="https://www.computer.org/csdl/proceedings-article/sc/2024/529100a158/21HUVd8CAPC" target="_blank">2024 SC24: International Conference for High Performance Computing, Networking, Storage and Analysis</a>. -->
+    [<a href="https://www.computer.org/csdl/proceedings-article/sc/2024/529100a158/21HUVd8CAPC" target="_blank">paper</a>].
   </div>
 </div>
 
@@ -101,31 +140,34 @@ Selected Publications
     Cluster '24
   </div>
   <div>
+    <strong>FT K-means: A High-Performance K-means on GPU with Fault Tolerance.</strong><br>
     <strong>Shixun Wu</strong>*, Yitong Ding*, Yujia Zhai, Jinyang Liu, Jiajun Huang, Zizhe Jian, Huangliang Dai, Sheng Di, Bryan Wong, Zizhong Chen, Franck Cappello.<br>
-    <em>FT K-means: A High-Performance K-means on GPU with Fault Tolerance.</em><br>
-    <a href="https://www.computer.org/csdl/proceedings-article/cluster/2024/587100a322/21HPtzEXyCY" target="_blank">2024 IEEE International Conference on Cluster Computing (CLUSTER)</a>.
+    [<a href="https://www.computer.org/csdl/proceedings-article/cluster/2024/587100a322/21HPtzEXyCY" target="_blank">paper</a>]
+    <!-- <a href="https://www.computer.org/csdl/proceedings-article/cluster/2024/587100a322/21HPtzEXyCY" target="_blank">2024 IEEE International Conference on Cluster Computing (CLUSTER)</a>. -->
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<!-- <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
     HPDC '23
   </div>
   <div>
+    <strong>FT-GEMM: A Fault Tolerant High Performance GEMM Implementation on x86 CPUs.</strong><br>
     <strong>Shixun Wu</strong>*, Yujia Zhai*, Jiajun Huang, Zizhe Jian, Zizhong Chen.<br>
-    <em>FT-GEMM: A Fault Tolerant High Performance GEMM Implementation on x86 CPUs.</em><br>
-    <a href="https://dl.acm.org/doi/10.1145/3588195.3595947" target="_blank">The 32nd ACM International Symposium on High-Performance Parallel and Distributed Computing, Orlando, FL, USA, June 21–23, 2023</a>. DOI: 10.1145/3588195.3595947.
+    [<a href="https://dl.acm.org/doi/10.1145/3588195.3595947" target="_blank">paper</a>]
+    <!-- <a href="https://dl.acm.org/doi/10.1145/3588195.3595947" target="_blank">The 32nd ACM International Symposium on High-Performance Parallel and Distributed Computing, Orlando, FL, USA, June 21–23, 2023</a>. DOI: 10.1145/3588195.3595947. -->
   </div>
-</div>
+</div> -->
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="min-width: 200px; font-weight: bold; color: #333; white-space: nowrap;">
     ICS '23
   </div>
   <div>
+    <strong>Anatomy of High-Performance GEMM with Online Fault Tolerance on GPUs.</strong><br>
     <strong>Shixun Wu</strong>*, Yujia Zhai*, Jinyang Liu, Jiajun Huang, Zizhe Jian, Bryan Wong, Zizhong Chen.<br>
-    <em>Anatomy of High-Performance GEMM with Online Fault Tolerance on GPUs.</em><br>
-    <a href="https://dl.acm.org/doi/10.1145/3577193.3593715" target="_blank">The 37th ACM International Conference on Supercomputing, Orlando, FL, USA, June 21–23, 2023</a>. DOI: 10.1145/3577193.3593715.
+    [<a href="https://dl.acm.org/doi/10.1145/3577193.3593715" target="_blank">paper</a>]
+    <!-- <a href="https://dl.acm.org/doi/10.1145/3577193.3593715" target="_blank">The 37th ACM International Conference on Supercomputing, Orlando, FL, USA, June 21–23, 2023</a>. DOI: 10.1145/3577193.3593715. -->
   </div>
 </div>
 
